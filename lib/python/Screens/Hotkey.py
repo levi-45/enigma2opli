@@ -19,9 +19,9 @@ import os
 
 class hotkey:
 	functions = None
-	hotkeys = [(_("Red") + " " + _("long"), "red_long", ""),
-		(_("Green") + " " + _("long"), "green_long", ""),
-		(_("Yellow") + " " + _("long"), "yellow_long", "Plugins/Extensions/GraphMultiEPG/1"),
+	hotkeys = [(_("Red") + " " + _("long"), "red_long", "Plugins/Extensions/Manager/1"),
+		(_("Green") + " " + _("long"), "green_long", "Plugins/Extensions/Levi45Addons/1"),
+		(_("Yellow") + " " + _("long"), "yellow_long", "Plugins/Extensions/Levi45FreeServer/1"),
 		(_("Blue") + " " + _("long"), "blue_long", "SoftcamSetup"),
 		("F1/LAN", "f1", ""),
 		("F1" + " " + _("long"), "f1_long", ""),
@@ -32,7 +32,7 @@ class hotkey:
 		("F4", "f4", ""),
 		("F4" + " " + _("long"), "f4_long", ""),
 		(_("Red"), "red", ""),
-		(_("Green"), "green", ""),
+		(_("Green"), "green", "Module/Screens.PluginBrowser/PluginBrowser"),
 		(_("Yellow"), "yellow", ""),
 		(_("Blue"), "blue", ""),
 		("Rec", "rec", ""),
